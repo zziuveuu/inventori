@@ -1,0 +1,105 @@
+/* Background login */
+.background {
+    background-image: url('assets/image/new-bg.png') ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Tambahan untuk overlay */
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.274); /* Mengurangi kecerahan background */
+   }
+
+/* Border putih di tengah yang berbentuk persegi */
+.centered-box {
+    background-color: rgb(252, 255, 255);
+    border: 10px solid #ffffff; /* Border putih */
+    border-radius: 10px; /* Membuat persegi */
+    max-width: 400px; /* Atur lebar maksimum untuk kotak tengah */
+    margin: auto; /* Memposisikan di tengah */
+    border-top: 200px ;
+    position:relative;
+    top: 100px;
+}
+
+/* Logo styling */
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+/* Form input styling */
+.form-control-user {
+    border-radius: 10rem;
+    padding: 1rem 1.5rem;
+}
+
+/* Button styling */
+.btn-user {
+    border-radius: 10rem;
+    padding: 0.75rem 1.5rem;
+}
+
+/* General text styling */
+.text-center {
+    text-align: center !important;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 767.98px) {
+    .centered-box {
+        max-width: 100%;
+    }
+}
+
+/* CSS untuk tombol login */
+.btn-login {
+    display:inline-flex;
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff; /* Warna teks putih */
+    background-color: #007bff; /* Warna biru tombol */
+    border: none;
+    border-radius: 5%; /* Radius sudut tombol */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Menghapus garis bawah dari tombol */
+    transition: background-color 0.1s ease; /* Transisi halus saat hover */
+}
+
+.btn-login:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+}
+
+/* Tambahkan CSS ini untuk border transparan pada card */
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Border putih transparan */
+    border-radius: 0.25rem; /* Jika Anda ingin sudut border melengkung */
+    background-color: rgba(255, 255, 255, 0.514); /* Latarnya juga transparan */
+}
+
+/* Pastikan card-body memiliki latar belakang transparan jika diperlukan */
+.card-body {
+    background-color: rgba(255, 255, 255, 0.452); /* Latarnya juga transparan */
+}
+
+.h3{
+    color: black;
+    font-size: 50px;
+}
+
+.rememberme{
+    color: black;
+}
+
+.labeluser{
+    width: 300px ;
+    
+}

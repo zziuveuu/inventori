@@ -1,0 +1,71 @@
+/* Gaya untuk tabel */
+.table {
+    width: 100%; /* Mengatur lebar tabel */
+    margin-bottom: 1rem; /* Jarak bawah tabel */
+    color: #5bacfc; /* Warna teks */
+}
+
+.table th,
+.table td {
+    padding: 0.75rem; /* Jarak dalam sel */
+    vertical-align: top; /* Penempatan vertikal */
+    border-top: 1px solid #dee2e6; /* Garis atas sel */
+}
+
+.table thead th {
+    vertical-align: bottom; /* Penempatan vertikal header */
+    border-bottom: 2px solid #dee2e6; /* Garis bawah header */
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6; /* Garis pemisah antara body tabel */
+}
+
+.table .table {
+    background-color: #5ba1e7; /* Warna latar belakang tabel dalam tabel */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Warna latar belakang baris ganjil */
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6; /* Garis batas tabel */
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6; /* Garis batas sel */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef; /* Warna latar belakang saat hover */
+}
+
+.btn {
+    padding: 0.375rem 0.75rem; /* Padding untuk tombol */
+    border-radius: 0.25rem; /* Sudut bulat pada tombol */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Warna latar belakang tombol primer */
+    border-color: #007bff; /* Warna batas tombol primer */
+    color: white; /* Warna teks tombol */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Warna latar belakang tombol berbahaya */
+    border-color: #dc3545; /* Warna batas tombol berbahaya */
+    color: white; /* Warna teks tombol */
+}
+
+.btn-outline-secondary {
+    color: #6c757d; /* Warna teks tombol sekunder */
+    border-color: #6c757d; /* Warna batas tombol sekunder */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Warna latar belakang tombol sekunder */
+    border-color: #6c757d; /* Warna batas tombol sekunder */
+    color: white; /* Warna teks tombol */
+}
