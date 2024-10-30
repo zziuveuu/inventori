@@ -192,7 +192,7 @@ require "./header.php";
         <!-- Form Pencarian -->
         <form method="get" action="">
             <div class="input-group mb-2">
-                <input  style="max-width: fit-content;" type="text" class="form-control" placeholder="Search by Kode Barang or Nama Barang" name="search" id="search" value="<?php echo htmlspecialchars($searchTerm); ?>">
+                <input  style="max-width: fit-content;" type="text" class="form-control" placeholder="Search Kode Barang or Nama Barang" name="search" id="search" value="<?php echo htmlspecialchars($searchTerm); ?>">
                 <button style="box-shadow: 2px 2px 2px rgba(0,0,0,5);" style="max-width: fit-content;" class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
             </div>
         </form>
