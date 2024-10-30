@@ -186,7 +186,7 @@ require "./navbar.php";
 <!-- Navbar -->
 
 <div class="container my-2">
-    <h2><?php echo $editMode ? "Edit Stock" : "List of Stock"; ?></h2>
+    <h2><?php echo $editMode ? "Edit Stock" : "Daftar Stock"; ?></h2>
     
     <?php if (!$editMode): ?>
         <a style="box-shadow: 2px 2px 2px rgba(0,0,0,5);" class="btn btn-primary mb-3" href="/inventori/createstock.php" role="button">New Stock</a>
